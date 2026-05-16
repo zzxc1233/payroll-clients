@@ -1,4 +1,4 @@
-import type { HtmlHTMLAttributes, HTMLInputAutoCompleteAttribute, ReactNode } from "react";
+import type { HtmlHTMLAttributes, ReactNode } from "react";
 import { cn } from "../../lib/utils";
 
 const variants = {

@@ -1,3 +1,4 @@
+import { Header } from "../components/layouts/Header";
 import { Button } from "../components/ui/Button";
 import { Input } from "../components/ui/Input";
 import { Badge } from "../components/ui/Badge";
@@ -20,6 +21,15 @@ export default function DesignPreview() {
 
   return (
     <div className="bg-background flex flex-col items-center justify-center gap-4 px-4 py-10">
+      <Header
+        title="Design Preview"
+        description="This page is used to preview the design of the components."
+        action={
+          <Button variant="primary" onClick={() => setIsModalOpen(true)}>
+            Add New Employee
+          </Button>
+        }
+      />
       {/* Button Preview */}
       <h1 className="text-4xl font-bold">Button Preview</h1>
       <div className="flex gap-4 items-center justify-center">
