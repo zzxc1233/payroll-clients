@@ -3,6 +3,8 @@
 @theme {
   --color-primary: #0058be;
   --color-on-primary: #ffffff;
+  --color-secondary: #c2c6d6;
+  --color-on-secondary: #191c1e;
 
   --color-background: #f7f9fb;
   --color-on-background: #191c1e;
