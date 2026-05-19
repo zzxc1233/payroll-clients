@@ -10,7 +10,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
     <div className="min-h-screen bg-background text-text">
       <Sidebar />
 
-      <main className="ml-60 min-h-screen p-6">
+      <main className="ml-60 min-h-screen">
         <div className="mx-auto max-w-360">{children}</div>
       </main>
     </div>
